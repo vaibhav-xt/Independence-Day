@@ -19,10 +19,12 @@
 body {
     background: var(--background);
     height: 100vh;
+    min-width: 1280px;
     width: 100vw;
     display: grid;
     place-items: center;
     overflow: hidden;
+    background: no-repeat;
 }
 
 .map {
