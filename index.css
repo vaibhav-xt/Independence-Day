@@ -20,7 +20,7 @@ body {
     background: var(--background);
     height: 100vh;
     min-width: 1280px;
-    width:100vw;
+    width: 100vw;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -30,7 +30,6 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    /* transform: translate(-50%, -50%); */
     width: 200%;
 }
 
@@ -255,7 +254,7 @@ body {
 
 .text-container {
     position: absolute;
-    top: 300px;
+    top: 250px;
     right: 50px;
     text-align: right;
     font-size: 35px;
