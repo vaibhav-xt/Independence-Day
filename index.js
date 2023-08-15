@@ -61,10 +61,3 @@ fileInput.addEventListener("change", function () {
 audio.onplay = function () {
     renderFrame();
 };
-
-
-// Add a user interaction event to trigger audio playback
-document.body.addEventListener("click", function () {
-    audio.play();
-    document.body.removeEventListener("click", arguments.callee);
-});
